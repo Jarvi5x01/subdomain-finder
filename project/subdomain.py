@@ -89,7 +89,7 @@ def readFileAndGenerateWordlist(name):
             subdomains.append(line)
 
         if len(subdomains) > 0:
-           return subdomains
+            return subdomains
         else:
             print("Wordlist has no data.")
             exit(0)
